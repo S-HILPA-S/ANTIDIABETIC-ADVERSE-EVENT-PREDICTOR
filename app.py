@@ -7,11 +7,11 @@ import joblib
 
 
 # ---------------- Load Pickle Files ----------------
-scaler = joblib.load(open("model/scaler.pkl", "rb"))
-ohe_encoder = joblib.load(open("model/ohe_encoder.pkl", "rb"))
-label_encoder = joblib.load(open("model/label_encoder (2).pkl", "rb"))
-model = joblib.load(open("model/final_faers_model.pkl", "rb"))
-pca = joblib.load(open("model/faers_pca.pkl", "rb"))
+scaler = joblib.load(open("MODEL/scaler.pkl", "rb"))
+ohe_encoder = joblib.load(open("MODEL/ohe_encoder.pkl", "rb"))
+label_encoder = joblib.load(open("MODEL/label_encoder (2).pkl", "rb"))
+model = joblib.load(open("MODEL/final_faers_model.pkl", "rb"))
+pca = joblib.load(open("MODEL/faers_pca.pkl", "rb"))
 
 # ---------------- Outcome Mapping ----------------
 outcome_mapping = {
