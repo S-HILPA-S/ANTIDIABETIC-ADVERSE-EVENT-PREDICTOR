@@ -1,0 +1,8 @@
+streamlit
+scikit-learn
+xgboost
+numpy
+pandas
+imbalanced-learn
+pycountry-convert
+pycountry
